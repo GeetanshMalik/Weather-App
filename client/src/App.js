@@ -10,7 +10,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const API_KEY = 'cbf1b77b6b8ba87ecad51b3d17b6ae60'; // Replace with your actual API key
+  const API_KEY = 'API_KEY'; 
   const API_BASE = 'https://api.openweathermap.org/data/2.5';
 
   useEffect(() => {
